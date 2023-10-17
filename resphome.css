@@ -1,0 +1,396 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    color:  white;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+  
+ul  {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    
+    
+    
+    }
+
+     li:hover {
+        background: rgb(80, 193, 80);
+        border-radius: 5rem;
+        border: green 5px solid;
+        
+    }
+
+    .header {
+        background: rgb(32, 129, 162);
+        width: 100%;
+        height: 500px;
+    }
+
+    .DesignUI {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lightgreen {
+        color: lightgreen;
+        font-size: 2.5rem;
+        margin: 0.8rem;
+    
+        
+    }
+
+    .img {
+        width: 10%;
+        height: 100px;
+        position: relative;
+        top: 2;
+    }
+
+     .btn-start > button {
+        width: 25%;
+        height: 30px;
+        background:rgb(32, 129, 162) ;
+        border: silver 2px solid;
+        color: white;
+    }
+
+    .logo  {
+      display: flex;
+      border:whitesmoke 1px groove ;
+      text-align: center;
+      padding: 1.5rem;
+      
+      
+     
+    }
+
+    .logo img {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+     .logo h2 {
+        padding: 1.5rem;
+        max-width: 1100px;
+        width: auto;
+        text-align:  center;
+       
+        
+        
+        
+    }
+    h2 {
+        text-align: center;
+    }
+
+    .hugo-img {
+        width: 30%;
+    }
+
+
+    .what {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .what h2 {
+        text-align: center;
+    }
+
+      .mid {
+        text-align: center;
+        padding: 1rem;
+        min-width: 20%;
+        height: 20%;
+    }
+
+    .what p {
+        font-size:large;
+        margin: 1.5rem;
+    }
+
+    .btn{
+        text-align: center;
+        
+    }
+
+    button {
+        border: none;
+        color: blue;
+    }
+    button:hover{
+        background: rgb(32, 129, 162);
+    }
+    
+    .how {
+        background: blue;
+    }
+
+    .how-we-do {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lig {
+        color: blueviolet;
+        padding: 3rem;
+        
+    }
+    .padding {
+        padding: 1rem;
+
+    }
+
+    .tools h2 {
+        color: white;
+    }
+
+    p .mid  {
+        text-align: center;
+    }
+    .pro {
+        background: white;
+        width: 300px;
+        height: 250px;
+        border: white 3px  ;
+        border-radius: 1px;
+        margin: 4rem;
+    }
+
+    .pro > p, .money {
+        margin: 1rem; 
+        
+       
+
+       
+    }
+    h3 {
+        text-align: center;
+        padding: 12px;
+        border: silver 1px solid;
+        border-top: 3rem;
+    }
+
+    .money {
+        font-size: 2rem;
+        font-weight: bolder;
+        
+    }
+
+    .bg  button  {
+       background: black;
+       color: white;
+       width: 95px;
+       height: 24px;
+    }
+
+    
+     .team {
+        display: flex;
+        padding: 2rem;
+        background: silver;
+     }
+
+     .team img {
+        display: block;
+        width: 50%;
+        margin: auto;
+     }
+
+     .team p {
+        text-align: center;
+     }
+
+     .team h2 {
+        color: blue;
+     }
+
+     h4  {
+        text-align: center;
+        background: silver;
+        padding: 1rem;
+        color: white;
+       
+        
+        
+     }
+
+     .love h3 {
+        background: whitesmoke;
+        color: rgba(0, 0, 0, 0.235);
+     }
+
+     .source p {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+     }
+
+     .follow {
+        color: silver;
+        text-align: center;
+        padding: 1.2rem;
+     }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background: blue;
+        height: 40%;
+        padding: 1.5rem;
+        color: white;
+    }
+
+.footer , h2 {
+    padding: 2px;
+}
+    .footer , h2, p {
+        text-align: center;
+        padding: 2px;
+    }
+
+     @media (max-width:500px) {
+        .navbar {
+           display: inline;
+           justify-content: center;
+            color: red;
+           
+        }
+
+        .devspace h3 {
+           
+        
+            border: none;
+            color: wheat;
+        }
+
+         ul {
+         text-align: center;
+            flex-direction: column-reverse;
+            padding: 1px;
+           margin: 1px;
+            gap: 4px;
+        }
+        
+
+        .lightgreen {
+            color: lightgreen;
+            font-size: 8px;
+            margin: 2px;
+        
+            
+        }
+
+        .wirteUP p  {
+            margin: 2px;
+            font-size: 10px;
+
+            
+            
+        }
+
+        .btn-start > button  {
+           
+            width: 50%;
+        height: 30px;
+            
+        }
+
+        .img{
+            display: none;
+        }
+
+        h2 {
+            font-weight: 2px;
+            font-size: 8px;
+        }
+
+        .logo{
+            display: grid;
+        }
+
+        .logo img {
+            display: inline;
+            width: 40%;
+        }
+
+        .logo .hugo-img{
+            width: 100%;
+            align-items: center;
+        }
+
+        .what {
+            display: grid;
+        }
+
+        .what p {
+            font-size: 8px;
+            /* font-weight: 1rem; */
+        }
+
+        .how-we-do {
+            display: grid;
+            justify-content: center;
+            
+            
+        }
+         .pro > p, .money {
+            
+            text-align: center;
+            font-weight: 9px;
+            font-size: 0.8rem;
+       }
+
+       .pro {
+        background: white;
+        width: 200px;
+        height: 200px;
+        border: white 3px  ;
+        border-radius: 1px;
+        margin: 4rem;
+        text-align: center;
+        
+    
+    }
+
+    .lig {
+     
+        padding: 1rem;
+        
+    }
+
+    .what p {
+        font-size:small;
+        margin: 1.5px;
+    }
+
+    
+    .team {
+        display: inline;
+        background: none;
+    }
+
+    .team  img {
+        padding: 1rem;
+    }
+
+    .footer{
+        display: grid;
+        ;
+    }
+
+    }
+
+    
